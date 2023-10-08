@@ -2,8 +2,9 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="organisation_of_dita_elements">
     <title>Organisation of DITA Elements</title>
-    <shortdesc>Elements in DITA are grouped together into a number of categories for organisational
-        and comprehension purposes.</shortdesc>
+    <shortdesc><?oxy_comment_start author="tvbinoy" timestamp="20231008T044755+0000" comment="Replace it with a DITA Elements"?>Elements<?oxy_comment_end?>
+        in DITA are grouped together into a number of categories for organisational and
+        comprehension purposes.</shortdesc>
     <conbody>
         <section id="section_iby_qpg_1zb">
             <title>Block and phrase elements</title>
