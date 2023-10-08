@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="twt_workshop">
+    <title>TechWriters Tribe Workshop</title>
+    <conbody>
+        <p>This topic provides the following TechWriters Tribe <ph keyref="version_number"/>workshop
+                details:<ph keyref="version_number"/><ul id="ul_ebd_tyl_1zb">
+                <li>TechWriters Tribe introduction</li>
+                <li>TechWriters Tribe session 1</li>
+                <li>TechWriters Tribe session 2</li>
+                <li>TechWriters Tribe session 3</li>
+            </ul></p>
+        <image keyref="saveicon" id="image_lj4_1mm_1zb"/>
+        <note>Attending all TechWriters Tribe sessions are mandatory.<xref keyref="microsoft_365"
+                format="html" scope="external"/></note>
+    </conbody>
+    <related-links>
+        <link keyref="microsoft_365" format="html" scope="external"/>
+        <link keyref="microsoft_teams" format="html" scope="external"/>
+    </related-links>
+</concept>

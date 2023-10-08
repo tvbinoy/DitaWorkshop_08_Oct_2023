@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="dita_information_types">
+    <title>DITA Information Types</title>
+    <shortdesc>
+        An introduction to DITA information types: Concept, Task, and Reference.
+    </shortdesc>
+    <conbody>
+        <p>
+            A fundamental principle of DITA is information typing, which categorizes information according to the nature of the content. The three base DITA information types are Concept, Task, and Reference.
+        </p>
+        <section>
+            <title>Information Types</title>
+            <ul>
+                <li>
+                    <p>Concept: Provides background information and explanations.</p>
+                </li>
+                <li>
+                    <p>Task: Details step-by-step procedures.</p>
+                </li>
+                <li>
+                    <p>Reference: Describes features and sets of things.</p>
+                </li>
+            </ul>
+        </section>
+    </conbody>
+</concept>
+

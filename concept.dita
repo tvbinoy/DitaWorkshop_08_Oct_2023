@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept">
+    <title>Concept</title>
+    <shortdesc>
+        An explanation of the Concept DITA information type.
+    </shortdesc>
+    <conbody>
+        <p>
+            The Concept topic is one of the three base DITA information types.
+        </p>
+        <section>
+            <title>Characteristics</title>
+            <ul>
+                <li>
+                    <p>Used for documenting conceptual or overview information.</p>
+                </li>
+                <li>
+                    <p>Contains background information users must know before working with a product or process.</p>
+                </li>
+                <li>
+                    <p>Comprised primarily of simple paragraphs and unordered lists.</p>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <title>Question Addressed</title>
+            <p>
+                Concept topics answer the question "what is?"
+            </p>
+        </section>
+        <section>
+            <title>Root Element</title>
+            <p>
+                The root element of a Concept topic is &lt;concept&gt;.
+            </p>
+        </section>
+    </conbody>
+</concept>
+

@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="domain_elements">
+    <title>Domain Elements</title>
+    <shortdesc/>
+    <conbody>
+        <p>The elements in the programming domain are designed for documenting programming
+            languages. The elements in the programming domain each have a specific semantic
+            purpose</p>
+        <section id="section_vv4_wmv_wyb">
+            <table id="table_xml_bnv_wyb">
+                <tgroup cols="2">
+                    <colspec colnum="1" colname="col1" colwidth="165pt" colsep="1" rowsep="1"/>
+                    <colspec colnum="2" colname="col2" colwidth="*" colsep="1" rowsep="1"/>
+                    <thead>
+                        <row rowsep="1">
+                            <entry colsep="1" rowsep="1">Element Name</entry>
+                            <entry colsep="1" rowsep="1">Semantic Purpose</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row rowsep="1">
+                            <entry colsep="1" rowsep="1">apiname</entry>
+                            <entry colsep="1" rowsep="1"><apiname>API name</apiname>
+                            </entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1" rowsep="1">codeblock</entry>
+                            <entry colsep="1" rowsep="1">
+                                <codeblock>code block</codeblock>
+                            </entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1" rowsep="1">codeph</entry>
+                            <entry colsep="1" rowsep="1">code <codeph>phrase</codeph></entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1" rowsep="1">option</entry>
+                            <entry colsep="1" rowsep="1">one of a set of
+                                <option>options</option></entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1" rowsep="1">parmname</entry>
+                            <entry colsep="1" rowsep="1"><parmname>parameter</parmname> or
+                                argument</entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1" rowsep="1">parml</entry>
+                            <entry colsep="1" rowsep="1">parameter list</entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1" rowsep="1">plentry</entry>
+                            <entry colsep="1" rowsep="1">parameter list entry (within parml)</entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1" rowsep="1">pt</entry>
+                            <entry colsep="1" rowsep="1">parameter term (within plentry)</entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1" rowsep="1">pd</entry>
+                            <entry colsep="1" rowsep="1">parameter definition (within
+                                plentry)</entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1" rowsep="1">synph</entry>
+                            <entry colsep="1" rowsep="1"><synph>syntax phrase</synph></entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1" rowsep="1">syntaxdiagram</entry>
+                            <entry colsep="1" rowsep="1">syntax diagram<p>
+                                    <syntaxdiagram id="syntaxdiagram_kbv_pch_1zb">
+                                        <title>CopyFile</title>
+                                        <groupseq>
+                                            <kwd>COPYF</kwd>
+                                        </groupseq>
+                                        <groupcomp>
+                                            <var>input-filename</var>
+                                            <kwd>*INFILE</kwd>
+                                            <oper>+</oper>
+                                        </groupcomp>
+                                        <groupseq>
+                                            <var>output-filename</var>
+                                            <kwd>*OUTFILE</kwd>
+                                        </groupseq>
+                                        <groupchoice>
+                                            <var>input-filename</var>
+                                            <kwd>*INFILE</kwd>
+                                        </groupchoice>
+                                        <groupchoice>
+                                            <var>output-filename</var>
+                                            <kwd>*OUTFILE</kwd>
+                                        </groupchoice>
+                                    </syntaxdiagram>
+                                </p></entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1" rowsep="1">groupseq</entry>
+                            <entry colsep="1" rowsep="1">group of syntactic units (used only for
+                                syntax diagrams)</entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1" rowsep="1">groupchoice</entry>
+                            <entry colsep="1" rowsep="1">choice of a group of syntactic units (used
+                                only for syntax diagrams)</entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1" rowsep="1">groupcomp</entry>
+                            <entry colsep="1" rowsep="1">group of composite syntactic units (used
+                                only for syntax diagrams)</entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1" rowsep="1">fragment</entry>
+                            <entry colsep="1" rowsep="1">fragment of syntax (used only for syntax
+                                diagrams)</entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1" rowsep="1">fragref</entry>
+                            <entry colsep="1" rowsep="1">cross-reference to a fragment of
+                                syntax</entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1" rowsep="1">synblk</entry>
+                            <entry colsep="1" rowsep="1">block of small pieces of syntax</entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1" rowsep="1">synnote</entry>
+                            <entry colsep="1" rowsep="1">footnote within syntax (syntax
+                                note)</entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1" rowsep="1">synnoteref</entry>
+                            <entry colsep="1" rowsep="1">cross-reference to a syntax note</entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1" rowsep="1">kwd</entry>
+                            <entry colsep="1" rowsep="1">syntax keyword (used only for syntax
+                                diagrams)</entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1" rowsep="1">var</entry>
+                            <entry colsep="1" rowsep="1">variable that a user must supply (used only
+                                for syntax diagrams)</entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1" rowsep="1">oper</entry>
+                            <entry colsep="1" rowsep="1">operator character (such as +, -, and =)
+                                within syntax</entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1" rowsep="1">delim</entry>
+                            <entry colsep="1" rowsep="1">delimiter character (such as /, |, and ;)
+                                within syntax</entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1" rowsep="1">sep</entry>
+                            <entry colsep="1" rowsep="1">separator character within syntax</entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1" rowsep="1">repsep</entry>
+                            <entry colsep="1" rowsep="1">separator character for repeated syntax
+                                elements</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        <section id="section_rvm_crv_wyb">
+            <title>User interface domain element</title>
+            <p>The elements in the user interface domain each have a specific semantic purpose.</p>
+            <table id="table_lcv_2rv_wyb">
+                <tgroup cols="2">
+                    <colspec colnum="1" colname="col1" colwidth="163.5" colsep="1" rowsep="1"/>
+                    <colspec colnum="2" colname="col2" colwidth="*" colsep="1" rowsep="1"/>
+                    <thead>
+                        <row rowsep="1">
+                            <entry colsep="1" rowsep="1">Element Name</entry>
+                            <entry colsep="1" rowsep="1">Semantic Purpose</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row rowsep="1">
+                            <entry colsep="1" rowsep="1">uicontrol</entry>
+                            <entry colsep="1" rowsep="1">user interface control</entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1" rowsep="1">wintitle</entry>
+                            <entry colsep="1" rowsep="1">window title</entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1" rowsep="1">menucascade</entry>
+                            <entry colsep="1" rowsep="1">menu cascade</entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1" rowsep="1">shortcut</entry>
+                            <entry colsep="1" rowsep="1"
+                                    ><uicontrol><shortcut>s</shortcut>hortcut</uicontrol></entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1" rowsep="1">screen</entry>
+                            <entry colsep="1" rowsep="1">
+                                <screen> File  Edit  Search  View  Program  Options  Help
+
++--------------------------------- UNTITLED1 ----------------------------------+
+
+¦                                                                              ¦
+
+¦                                                                              ¦
+
+¦                                                                              ¦
+
+¦                                                                              ¦
+
+¦  Line:1    Col:1  F1=Help                                                    ¦
+
++------------------------------------------------------------------------------+</screen>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        <section id="section_enj_4sv_wyb">
+            <title>Utilities domain elements</title>
+            <p>The utilities domain elements are non-semantic elements used in defining image
+                maps.</p>
+            <p>The elements in the utilities domain each have a specific purpose in defining image
+                map properties.</p>
+            <table id="table_t4k_ssv_wyb" colsep="1" rowsep="1" frame="all">
+                <tgroup cols="2">
+                    <colspec colnum="1" colname="col1" colwidth="165" colsep="1" rowsep="1"/>
+                    <colspec colnum="2" colname="col2" colwidth="*" colsep="1" rowsep="1"/>
+                    <thead>
+                        <row rowsep="1">
+                            <entry colsep="1" rowsep="1">Element Name</entry>
+                            <entry colsep="1" rowsep="1">Semantic Purpose</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row rowsep="1">
+                            <entry colsep="1" rowsep="1">imagemap</entry>
+                            <entry colsep="1" rowsep="1">client-side image map</entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1" rowsep="1">area</entry>
+                            <entry colsep="1" rowsep="1">hotspot area within an image map</entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1" rowsep="1">coords</entry>
+                            <entry colsep="1" rowsep="1">co-ordinates of a hotspot area within an
+                                image map</entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1" rowsep="1">shape</entry>
+                            <entry colsep="1" rowsep="1">shape of a hotspot area within an image
+                                map</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        <section id="section_gnd_sfh_1zb">
+            <imagemap id="imagemap_ev1_qtv_wyb">
+                <image href="oxygen_interface.JPG" id="image_fv1_qtv_wyb"/>
+                <area>
+                    <shape>rect</shape>
+                    <coords>-7, 27, 559, 50</coords>
+                    <xref href="https://www.google.co.in" format="html" scope="external">Menu</xref>
+                </area>
+                <area>
+                    <shape>rect</shape>
+                    <coords>-7, 58, 1334, 164</coords>
+                    <xref href="https://www.oxygenxml.com" format="html" scope="external"
+                        >Toolbar</xref>
+                </area>
+                <area>
+                    <shape>rect</shape>
+                    <coords>-8, 170, 316, 700</coords>
+                    <xref href="https://www.oxygenxml.com" format="html" scope="external">DITA Maps
+                        Manager</xref>
+                </area>
+                <area>
+                    <shape>rect</shape>
+                    <coords>330, 166, 1094, 684</coords>
+                    <xref href="https://www.oxygenxml.com" format="html" scope="external">DITA
+                        Editor</xref>
+                </area>
+            </imagemap>
+        </section>
+    </conbody>
+    <related-links>
+        <link href="https://www.oxygenxml.com/dita/1.3/specs/langRef/containers/pr-d.html"
+            format="html" scope="external"></link>
+        <link href="https://www.oxygenxml.com/dita/1.3/specs/langRef/containers/ui-d.html"
+            format="html" scope="external"/>
+    </related-links>    
+</concept>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="basic_dita_topic_types">
+    <title>Three Basic DITA Topic Types</title>
+    <shortdesc>Learn about the fundamental DITA topic types: Concept, Task, and Reference.</shortdesc>
+    <conbody>
+        <p>DITA (Darwin Information Typing Architecture) is an XML-based framework for structuring,
+            organizing, and managing content in a modular and reusable way. One of the fundamental
+            concepts in DITA is the classification of content into different topic types, each
+            designed to convey specific types of information.Following are the three basic DITA
+            Topic Types:</p>
+        
+        <section id="concept-topic">
+            <ul>
+                <li>
+                    <p><b>Concept</b></p>
+                </li>
+                <li>
+                    <p><b>Task</b>
+                    </p>
+                </li>
+                <li>
+                    <p><b>Reference</b></p>
+                </li>
+            </ul>
+        </section>
+    </conbody>
+</concept>

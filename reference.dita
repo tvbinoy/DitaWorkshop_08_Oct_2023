@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="reference">
+    <title>Reference</title>
+    <shortdesc>
+        An explanation of the Reference DITA information type.
+    </shortdesc>
+    <conbody>
+        <p>
+            The Reference topic is one of the three base DITA information types.
+        </p>
+        <section>
+            <title>Characteristics</title>
+            <ul>
+                <li>
+                    <p>Used to describe features of sets of things, such as codes, types, and commands.</p>
+                </li>
+                <li>
+                    <p>Information that demands tabular presentation often belongs in reference topics.</p>
+                </li>
+                <li>
+                    <p>Commonly organized into tables.</p>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <title>Content</title>
+            <p>
+                Reference topics contain facts without explanation.
+            </p>
+        </section>
+        <section>
+            <title>Root Element</title>
+            <p>
+                The root element of a Reference topic is &lt;reference&gt;.
+            </p>
+        </section>
+    </conbody>
+</concept>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="applying_profile_attributes">
+    <title>Applying Profile Attributes</title>
+    <shortdesc>Learn how to apply profile attributes (conditional text) in Oxygen XML
+        Author.</shortdesc>
+    <taskbody>
+        <prereq id="prereq_sfk_4j3_1zb"><p>Ensure you have created profile attributes (conditional
+            text) in your DITA document</p></prereq>
+        <steps>
+            <step>
+                <cmd>Open the DITA document where you have defined profile attributes (conditional
+                    text) in Oxygen XML Author. </cmd>
+            </step>
+            <step>
+                <cmd>Select the content that you want to conditionally hide or show based on the
+                    profile attributes.</cmd>
+            </step>
+            <step>
+                <cmd>Right-click in the editor and select <uicontrol>Edit profiling
+                        Attributes</uicontrol></cmd>
+            </step>
+            <step>
+                <cmd>On the <wintitle>Edit Profiling Attributes</wintitle> window, select the
+                    profile attribute(s) you want to apply from the list.</cmd>
+            </step>
+            <step>
+                <cmd>Select <uicontrol>OK</uicontrol> to apply the selected profile attribute to the
+                    content. The content will be conditionally displayed .</cmd>
+                <stepresult>By following these steps, you can effectively apply profile attributes
+                    (conditional text) to control the visibility of content in Oxygen XML Author.
+                    This allows you to tailor your documentation for different audiences or
+                    conditions defined by the profile attributes.</stepresult>
+            </step>
+        </steps>
+        <postreq id="postreq_cvc_2k3_1zb">After applying profile attributes, you can further
+            customize and refine the conditional text behavior as needed in your DITA
+            document.</postreq>
+    </taskbody>
+    <related-links>
+        <link href="creating_profile_attributes.dita" format="dita"/>
+    </related-links>
+</task>

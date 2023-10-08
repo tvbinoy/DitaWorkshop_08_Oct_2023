@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Module2</title>
+    <topicref href="basic_dita_topic_types.dita">
+        <topicref href="concept_dita_topic_type.dita"/>
+        <topicref href="task_topic_type.dita"/>
+        <topicref href="reference_topic_type.dita"/>
+    </topicref>
+    <topicgroup>
+        <topicmeta>
+            <navtitle>Task Topic</navtitle>
+        </topicmeta>
+        <topicref href="Creating%20a%20task%20topic.dita"/>
+    </topicgroup>
+    <topicgroup>
+        <topicmeta>
+            <navtitle>DITA Information Types</navtitle>
+        </topicmeta>
+        <topicref href="dita_information_types.dita">
+            <topicref href="concept.dita"/>
+            <topicref href="task.dita"/>
+            <topicref href="reference.dita"/>
+        </topicref>
+    </topicgroup>
+    <topicgroup>
+        <topicmeta>
+            <navtitle>Information Types in DITA</navtitle>
+        </topicmeta>
+        <topicref href="information_types_in_dita.dita"/>
+    </topicgroup>
+</map>

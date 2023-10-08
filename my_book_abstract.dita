@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="my_book_abstract">
+    <title>My Book Abstract</title>
+    <conbody>
+        <p>This is my book abstract.</p>
+    </conbody>
+</concept>

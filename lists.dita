@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="Lists">
+    <title>Lists</title>    
+    <body>        
+        <p>Types of lists:<ul id="ab_td3_5yr_gej">           
+            <li>Simple lists</li>           
+            <li>Bulleted (unordered) lists</li>           
+            <li>Numbered (ordered) lists</li>           
+            <li>Definition lists</li>           
+            <li>Choice lists</li>           
+            <li>Parameter lists</li>         
+        </ul></p>     
+    </body> 
+    <topic id="topic_afg_trf_ijo">       
+        <title>Simple Lists</title>     
+        <body>          
+            <p>Simple lists</p>            
+            <sl id="sl_vhp_jwv_wyb">                
+                <sli>Apple</sli>                
+                <sli>Banana</sli>               
+                <sli>Carrot</sli>               
+                <sli>Drumsticks</sli>                
+            </sl>           
+        </body>       
+    </topic>   
+    <topic id="topic_gdt_nwv_wyb">        
+        <title>Bulleted Lists</title>        
+        <body>           
+            <p>Bulleted Lists</p>           
+            <ul id="ul_lr1_pwv_wyb">              
+                <li>Apple<ul id="ul_qz3_rwv_wyb">                   
+                    <li>Pie</li>                   
+                    <li>Cake</li>                   
+                    <li>Juice</li>                 
+                </ul></li>             
+                <li>Banana</li>             
+                <li>Carrot</li>             
+            </ul>         
+        </body>     
+    </topic> 
+    <topic id="topic_d4h_vwv_wyb">    
+        <title>Numbered Lists</title>     
+        <body>       
+            <p>Numbered lists</p>           
+            <ol id="ol_tyc_xwv_wyb">               
+                <li>Apple<ol id="ol_jrm_ywv_wyb">                   
+                    <li>Pie</li>                   
+                    <li>Cake<ul id="ul_xn5_cxv_wyb">                      
+                        <li>Vegan</li>                     
+                        <li>Non-Vegetarian (contains Eggs)</li>                    
+                    </ul></li>                 
+                    <li>Juice</li>                
+                </ol></li>            
+                <li>Banana</li>           
+                <li>Carrot</li>          
+            </ol>    
+        </body>
+    </topic>
+    <topic id="topic_xch_gxv_wyb">
+        <title>Definition Lists</title>
+        <body>
+            <p>Definition Lists</p>
+            <dl id="dl_iqg_kxv_wyb">
+                <dlentry>
+                    <dt><image href="new.JPG" id="image_ftf_mxv_wyb"/>New</dt>
+                    <dd>Click to create a new file template.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><image href="Save.JPG" id="image_yu3_iop_opl"/>Save</dt>
+                    <dd>Click to save the file.</dd>
+                </dlentry>
+            </dl>
+        </body>
+    </topic>
+    <topic id="topic_abx_wxv_wyb">
+        <title>Parameter Lists</title>
+        <body>
+            <p>Parameter Lists</p>
+            <codeblock id="codeblock_tgh_uhb_okn">callHelp(hFileName, contentId)</codeblock>
+            <p>Where <parml id="parml_wef_uhj_tgb">
+                <plentry>
+                    <pt>FileName</pt>                    
+                    <pd>is relative path to the file.</pd>                    
+                </plentry>                
+                <plentry>                    
+                    <pt>contentId</pt>                   
+                    <pd>the ID of the topic to display.</pd>                    
+                </plentry>               
+            </parml></p>            
+        </body>        
+    </topic>   
+    <topic id="topic_srd_jyv_wyb">        
+        <title>Choice Lists</title>       
+        <body>            
+            <p>A choice list in DITA is a mechanism used to define a set of options or choices that can be made within a specific context. It allows you to specify a list of acceptable values for a particular attribute or element, which helps ensure consistency and accuracy in your content.</p>
+            <section id="section_r2z_t5h_1zb">
+                <title>Where to Use a Choice List</title>
+                <p>Choice lists are commonly used in DITA to:</p>
+                <ul>
+                    <li>Define valid values for attributes.</li>
+                    <li>Restrict the allowed content of an element.</li>
+                    <li>Ensure uniformity and standardization in your documentation.</li>
+                </ul>
+                <p>For example, you might use a choice list to specify valid values for the <codeph>status</codeph> attribute in a DITA topic to indicate the status of a task (e.g., "draft," "in progress," "completed"). This ensures that authors can only select from the predefined options, preventing inconsistencies and errors in your content.</p>
+            </section>
+            <example>
+                <title>Sample of &lt;codeblock> element with the choice list in syntax</title>
+                <codeblock>&lt;choices id="choices_ew4_dd3_1zb">
+                    &lt;choice>Concept&lt;/choice>
+                    &lt;choice>Task&lt;/choice>
+                    &lt;choice>Reference&lt;/choice>
+                &lt;/choices></codeblock>
+            </example>           
+        </body>        
+    </topic>   
+</topic>

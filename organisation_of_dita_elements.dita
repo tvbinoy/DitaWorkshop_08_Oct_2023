@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="organisation_of_dita_elements">
+    <title>Organisation of DITA Elements</title>
+    <shortdesc>Elements in DITA are grouped together into a number of categories for organisational
+        and comprehension purposes.</shortdesc>
+    <conbody>
+        <section id="section_iby_qpg_1zb">
+            <title>Block and phrase elements</title>
+            <p>Most <tm tmtype="tm">DITA®</tm> topic semantic elements can be categorised as block
+                or phrase elements. </p>
+            <p>Block elements are paragraph-like elements that are typically displayed in the output
+                with space above and below the content, taking up the full width of the available
+                space. Phrase (or inline) elements are applied to words or phrases within a block
+                element, and typically do not force new lines in the output. </p>
+            <p>Block elements can exist within other block elements, but not within phrase elements.
+                Phrase elements can exist within block elements and within other phrase elements. </p>
+            <p>Examples of block elements include:</p>
+                <ul id="ul_sfp_jqg_1zb">
+                    <li>p (paragraph)</li>
+                </ul>
+            
+            <p>codeblock</p>
+            <p>steps</p>
+            <p>msgblock</p>
+            <p>title</p>
+        </section>
+    </conbody>
+</concept>

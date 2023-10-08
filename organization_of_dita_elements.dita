@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "concept.dtd">
+<reference id="organization_of_dita_elements">
+    <title>Organization of DITA Elements</title>
+    <shortdesc>Elements in DITA are grouped together into a number of categories for organisational
+        and comprehension purposes.</shortdesc>
+    <refbody>
+        <section id="section_n5f_xhn_yyb">
+            <table conref="types_of_pencil.dita#types_of_pencil/table_hn4_l5w_5yb"
+                id="table_lx1_z3n_yyb">
+                <tgroup cols="1">
+                    <tbody>
+                        <row>
+                            <entry/>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        <section id="section_xxw_nkv_wyb">
+            <title>Block and phrase elements</title>
+            <p>Most <tm tmtype="tm">DITA</tm> topic semantic elements can be categorised as block or
+                phrase elements. Block elements are paragraph-like elements that are typically
+                displayed in the output with space above and below the content, taking up the full
+                width of the available space. Phrase (or inline) elements are applied to words or
+                phrases within a block element, and typically do not force new lines in the output. </p>
+            <p>Block elements can exist within other block elements, but not within phrase elements.
+                Phrase elements can exist within block elements and within other phrase elements.
+                Examples of block elements include: </p>
+            <ul id="ul_bkq_vkv_wyb">
+                <li>p (paragraph) </li>
+                <li>codeblock </li>
+                <li>steps </li>
+                <li>msgblock </li>
+                <li>title </li>
+            </ul>
+            <p>Examples of phrase elements include: </p>
+            <ul id="ul_mdy_vkv_wyb">
+                <li>term </li>
+                <li>codeph </li>
+                <li>uicontrol </li>
+                <li>msgph </li>
+                <li>tm (trademark)</li>
+            </ul>
+        </section>
+        <section id="section_dl2_fmv_wyb">
+            <title>Map elements</title>
+            <p>The map elements include: </p>
+            <ul id="ul_et5_lmv_wyb">
+                <li>map</li>
+                <li>topicref</li>
+                <li>topicmeta</li>
+                <li>topicgroup</li>
+                <li>topichead</li>
+                <li>reltable</li>
+            </ul>
+        </section>
+    </refbody>
+</reference>

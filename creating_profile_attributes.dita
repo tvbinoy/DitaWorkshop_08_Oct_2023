@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="creating_profile_attributes">
+    <title>Creating Profile Attributes</title>
+    <shortdesc>Learn how to create profile attributes (conditional text) in Oxygen XML
+        Author</shortdesc>
+    <taskbody>
+        <prereq id="prereq_grx_yh3_1zb">
+            <p>Ensure you have Oxygen XML Author v20 or later.</p>
+        </prereq>
+        <steps>
+            <step>
+                <cmd>Open Oxygen XML. </cmd>
+            </step>
+            <step>
+                <cmd>Go to <menucascade>
+                        <uicontrol>Options</uicontrol>
+                        <uicontrol>Preferences.</uicontrol>
+                    </menucascade></cmd>
+            </step>
+            <step>
+                <cmd>On the <wintitle>Preferences</wintitle> window search bar, enter
+                    Attributes.</cmd>
+            </step>
+            <step>
+                <cmd>From the expanded search result, select <uicontrol>Attributes and Conditional
+                        Sets</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>On the the <wintitle>Attributes and Conditional Sets</wintitle> section, select
+                        <uicontrol>create</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Alternatively, select an existing one from the dropdown list and select
+                        <uicontrol>Edit</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Enter the Document type, Attribute name, and Display name.</cmd>
+            </step>
+            <step>
+                <cmd>Select a value from the list (e.g., product 1, product 2, mobile, desktop,
+                    etc.)</cmd>
+            </step>
+            <step>
+                <cmd>Alternatively, you can create or edit a from the list by selecting
+                        <uicontrol>New</uicontrol> or <uicontrol>Edit</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Once done, select to <uicontrol>OK</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>If you want to choose both value, select rdio button next to
+                        <uicontrol>Multiple values seperated by:</uicontrol> and select
+                        <uicontrol>&lt;space></uicontrol>, "<uicontrol>,</uicontrol>", or
+                        "<uicontrol>;</uicontrol>"</cmd>
+            </step>
+            <step>
+                <cmd>Once done, select <menucascade>
+                        <uicontrol>OK.</uicontrol>
+                    </menucascade></cmd>
+            </step>
+            <step>
+                <cmd>If you want to use pre-defined attributes (e.g., organisational level), select
+                        <uicontrol>Import from DITA VAL</uicontrol> and choose the file.</cmd>
+                <stepresult>This will import the attributes and you can choose either to
+                        <uicontrol>Merge</uicontrol> or <uicontrol>Replace</uicontrol> the selected
+                    attributes.</stepresult>
+            </step>
+            <step>
+                <cmd>If you want to apply color to the attributes:</cmd>
+                <substeps>
+                    <substep>
+                        <cmd>Go to <menucascade>
+                                <uicontrol>Options</uicontrol>
+                                <uicontrol>Preferences.</uicontrol>
+                            </menucascade></cmd>
+                    </substep>
+                    <substep>
+                        <cmd>On the <wintitle>Preferences</wintitle> window search bar, enter
+                            color.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>From the expanded search result, select <uicontrol>Colors and
+                                Styles</uicontrol>.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>On the <wintitle>Colors and Styles</wintitle> section, select
+                                <uicontrol>New</uicontrol>.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Alternatively, select an existing one from the dropdown list and select
+                                <uicontrol>Edit</uicontrol> or choose <uicontrol>Automatic
+                                Styling</uicontrol>.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Once done, select <menucascade>
+                                <uicontrol>Apply</uicontrol>
+                                <uicontrol> OK.</uicontrol>
+                            </menucascade></cmd>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>Once done, select <menucascade>
+                        <uicontrol>Apply</uicontrol>
+                        <uicontrol> OK.</uicontrol>
+                    </menucascade></cmd>
+                <stepresult>By following these steps, you can effectively create and manage profile
+                    attributes (conditional text) in Oxygen XML Author, allowing you to
+                    conditionally show or hide content based on specific attributes or
+                    conditions.</stepresult>
+            </step>
+        </steps>
+        <postreq id="postreq_vj5_r33_1zb">After creating profile attributes, you can proceed to
+            apply these attributes (conditional text) in Oxygen XML Author to control the visibility
+            of content based on the defined conditions.</postreq>
+    </taskbody>
+    <related-links>
+        <link href="applying_profile_attributes.dita" format="dita"/>
+    </related-links>
+</task>

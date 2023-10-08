@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="reference_topic_type">
+    <title>Reference Topic Type</title>
+    <shortdesc> This topic provides an in-depth understanding of the Reference topic type,
+        explaining its purpose, characteristics, and common use cases. </shortdesc>
+    <conbody>
+        <p>
+            In DITA (Darwin Information Typing Architecture), a Reference topic is a vital topic type designed to provide comprehensive and detailed information about specific elements, parameters, or features. It serves the primary purpose of offering detailed reference material.
+        </p>
+        <section>
+            <title>Purpose</title>
+            <p> The primary purpose of a Reference topic is to present users with comprehensive and
+                detailed information about specific elements, parameters, or features. It is
+                intended to serve as a reference guide for users seeking in-depth information. </p>
+        </section>
+        <section>
+            <title>Key Characteristics</title>
+            <ul>
+                <li>
+                    <p>
+                        Comprehensive Information: Reference topics include detailed specifications, properties, options, and parameters, providing a thorough understanding of the subject matter.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Structured Information: They are often organized hierarchically or categorically to help users locate specific details efficiently and navigate complex information.
+                    </p>
+                </li>
+                <li>
+                    <p> No Prescriptive Guidance: Reference topics do not include step-by-step
+                        instructions or procedures. Instead, they focus on presenting facts and
+                        details. </p>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <title>Common Use Cases</title>
+            <ul>
+                <li>
+                    <p>
+                        API Documentation: Reference topics are commonly used in API documentation to describe functions, classes, parameters, and their specifications.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Hardware Component Specifications: They are employed to provide detailed technical information about hardware components, including specifications and compatibility.
+                    </p>
+                </li>
+                <li>
+                    <p> Software Feature Catalogs: Reference topics serve as catalogs of software
+                        features, configuration options, settings, and their detailed descriptions. </p>
+                </li>
+            </ul>
+        </section>
+    </conbody>
+</concept>

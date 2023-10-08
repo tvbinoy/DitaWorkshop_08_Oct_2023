@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+    <booktitle>
+        <booklibrary>Horror</booklibrary>
+        <mainbooktitle>My First Book</mainbooktitle>
+    </booktitle>
+    <bookmeta>
+        <bookrights>
+            <bookowner>
+                <person>Binoy TV</person>
+                <organization>TWT</organization>
+            </bookowner>
+        </bookrights>
+    </bookmeta>
+    <frontmatter>
+        <booklists>
+            <toc/>
+            <figurelist/>
+            <tablelist/>
+        </booklists>
+        <bookabstract href="my_book_abstract.dita"></bookabstract>
+        <preface href="preface.dita"></preface>
+    </frontmatter>
+    <chapter href="chapter_1.dita">
+        <mapref href="module1.ditamap" format="ditamap"/>
+    </chapter>
+    <chapter href="chapter_2.dita">
+        <topicref href="module2.ditamap" format="ditamap"/>
+    </chapter>
+    <chapter href="chapter_3.dita">
+        <mapref href="module3.ditamap" format="ditamap"/>
+    </chapter>
+<appendices>
+    <appendix href="appendix_chapter.dita"></appendix>
+</appendices>
+    <backmatter></backmatter>
+</bookmap>

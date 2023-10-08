@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Microsoft</title>
+    <keydef keys="microsoft_365" href="https://learn.microsoft.com/en-gb/microsoft-365">
+        <topicmeta>
+            <keywords>
+                <keyword>Microsoft 365</keyword>
+            </keywords>
+        </topicmeta>
+    </keydef>
+    <keydef keys="microsoft_teams" href="https://learn.microsoft.com/en-gb/microsoftteams">
+        <topicmeta>
+            <keywords>
+                <keyword>Microsoft Teams</keyword>
+            </keywords>
+        </topicmeta>
+    </keydef>
+    <keydef keys="saveicon" href="Save.JPG" format="jpg"></keydef>
+</map>

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="domain_elements">
+    <title>Domain Elements</title>
+    <refbody>
+        <section id="section_vv4_wmv_wyb">
+            <title>Programming domain</title>
+            <p>The elements in the programming domain are designed for documenting programming
+                languages.</p>
+            <p>The elements in the programming domain each have a specific semantic purpose. </p>
+            <p>For more information, see<xref href="organization_of_dita_elements.dita"
+                    format="dita"/><draft-comment author="binoy">Why can I not see the image when I
+                    generate a PDF?<p>You have an error in the table, please fix the X
+                        attribute.</p></draft-comment></p>
+            <table id="table_xml_bnv_wyb">
+                <tgroup cols="2">
+                    <colspec colnum="1" colname="col1" colwidth="165pt"/>
+                    <colspec colnum="2" colname="col2" colwidth="*"/>
+                    <thead>
+                        <row>
+                            <entry>Element Name</entry>
+                            <entry>Semantic Purpose</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>apiname</entry>
+                            <entry><apiname>API name</apiname>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>codeblock</entry>
+                            <entry>
+                                <codeblock>code block</codeblock>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>codeph</entry>
+                            <entry>code <codeph>phrase</codeph></entry>
+                        </row>
+                        <row>
+                            <entry>option</entry>
+                            <entry>one of a set of <option>options</option></entry>
+                        </row>
+                        <row>
+                            <entry>parmname</entry>
+                            <entry>parameter or argument</entry>
+                        </row>
+                        <row>
+                            <entry>parml</entry>
+                            <entry>parameter list</entry>
+                        </row>
+                        <row>
+                            <entry>plentry</entry>
+                            <entry>parameter list entry (within parml)</entry>
+                        </row>
+                        <row>
+                            <entry>pt</entry>
+                            <entry>parameter term (within plentry)</entry>
+                        </row>
+                        <row>
+                            <entry>pd</entry>
+                            <entry>parameter definition (within plentry)</entry>
+                        </row>
+                        <row>
+                            <entry>synph</entry>
+                            <entry><synph>syntax phrase</synph></entry>
+                        </row>
+                        <row>
+                            <entry>syntaxdiagram</entry>
+                            <entry>syntax diagram<p><syntaxdiagram>  <title>CopyFile</title>  <groupseq><kwd>COPYF</kwd></groupseq>  <groupcomp>
+                                            <var>input-filename</var>
+                                            <kwd>*INFILE</kwd>
+                                            <oper>+</oper>
+                                        </groupcomp>  <groupseq><var>output-filename</var><kwd>*OUTFILE</kwd></groupseq>  <groupchoice> <var>input-filename</var> <kwd>*INFILE</kwd></groupchoice>  <groupchoice> <var>output-filename</var> <kwd>*OUTFILE</kwd></groupchoice></syntaxdiagram></p></entry>
+                        </row>
+                        <row>
+                            <entry>groupseq</entry>
+                            <entry>group of syntactic units (used only for syntax diagrams)</entry>
+                        </row>
+                        <row>
+                            <entry>groupchoice</entry>
+                            <entry>choice of a group of syntactic units (used only for syntax
+                                diagrams)</entry>
+                        </row>
+                        <row>
+                            <entry>groupcomp</entry>
+                            <entry>group of composite syntactic units (used only for syntax
+                                diagrams)</entry>
+                        </row>
+                        <row>
+                            <entry>fragment</entry>
+                            <entry>fragment of syntax (used only for syntax diagrams)</entry>
+                        </row>
+                        <row>
+                            <entry>fragref</entry>
+                            <entry>cross-reference to a fragment of syntax</entry>
+                        </row>
+                        <row>
+                            <entry>synblk</entry>
+                            <entry>block of small pieces of syntax</entry>
+                        </row>
+                        <row>
+                            <entry>synnote</entry>
+                            <entry>footnote within syntax (syntax note)</entry>
+                        </row>
+                        <row>
+                            <entry>synnoteref</entry>
+                            <entry>cross-reference to a syntax note</entry>
+                        </row>
+                        <row>
+                            <entry>kwd</entry>
+                            <entry>syntax keyword (used only for syntax diagrams)</entry>
+                        </row>
+                        <row>
+                            <entry>var</entry>
+                            <entry>variable that a user must supply (used only for syntax
+                                diagrams)</entry>
+                        </row>
+                        <row>
+                            <entry>oper</entry>
+                            <entry>operator character (such as +, -, and =) within syntax</entry>
+                        </row>
+                        <row>
+                            <entry>delim</entry>
+                            <entry>delimiter character (such as /, |, and ;) within syntax</entry>
+                        </row>
+                        <row>
+                            <entry>sep</entry>
+                            <entry>separator character within syntax</entry>
+                        </row>
+                        <row>
+                            <entry>repsep</entry>
+                            <entry>separator character for repeated syntax elements</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        <section id="section_rvm_crv_wyb">
+            <title>User interface domain element</title>
+            <p>The elements in the user interface domain each have a specific semantic purpose.</p>
+            <p> </p>
+            <table id="table_lcv_2rv_wyb">
+                <tgroup cols="2">
+                    <colspec colnum="1" colname="col1" colwidth="163.5"/>
+                    <colspec colnum="2" colname="col2" colwidth="*"/>
+                    <thead>
+                        <row>
+                            <entry>Element Name</entry>
+                            <entry>Semantic Purpose</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>uicontrol</entry>
+                            <entry>user interface control</entry>
+                        </row>
+                        <row>
+                            <entry>wintitle</entry>
+                            <entry>window title</entry>
+                        </row>
+                        <row>
+                            <entry>menucascade</entry>
+                            <entry>menu cascade</entry>
+                        </row>
+                        <row>
+                            <entry>shortcut</entry>
+                            <entry><uicontrol><shortcut>s</shortcut>hortcut</uicontrol></entry>
+                        </row>
+                        <row>
+                            <entry>screen</entry>
+                            <entry>
+                                <screen> File  Edit  Search  View  Program  Options  Help
+
++--------------------------------- UNTITLED1 ----------------------------------+
+
+¦                                                                              ¦
+
+¦                                                                              ¦
+
+¦                                                                              ¦
+
+¦                                                                              ¦
+
+¦  Line:1    Col:1  F1=Help                                                    ¦
+
++------------------------------------------------------------------------------+</screen>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <p/>
+        </section>
+        <section id="section_enj_4sv_wyb">
+            <title>Utilities domain elements</title>
+            <p>The utilities domain elements are non-semantic elements used in defining image
+                maps.</p>
+            <p>The elements in the utilities domain each have a specific purpose in defining image
+                map properties.</p>
+            <table id="table_t4k_ssv_wyb">
+                <tgroup cols="2">
+                    <colspec colnum="1" colname="col1" colwidth="165"/>
+                    <colspec colnum="2" colname="col2" colwidth="*"/>
+                    <thead>
+                        <row>
+                            <entry>Element Name</entry>
+                            <entry>Semantic Purpose</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>imagemap</entry>
+                            <entry>client-side image map</entry>
+                        </row>
+                        <row>
+                            <entry>area</entry>
+                            <entry>hotspot area within an image map</entry>
+                        </row>
+                        <row>
+                            <entry>coords</entry>
+                            <entry>co-ordinates of a hotspot area within an image map</entry>
+                        </row>
+                        <row>
+                            <entry>shape</entry>
+                            <entry>shape of a hotspot area within an image map</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        <section>
+            <imagemap id="imagemap_ev1_qtv_wyb">
+                <image href="oxygen_interface.JPG" id="image_fv1_qtv_wyb"/>
+                <area>
+                    <coords/>
+                    <xref/>
+                </area>
+                <area>
+                    <shape>rect</shape>
+                    <coords>-7, 27, 559, 50</coords>
+                    <xref href="https://www.google.co.in" format="html" scope="external">Menu</xref>
+                </area>
+                <area>
+                    <shape>rect</shape>
+                    <coords>-7, 58, 1334, 164</coords>
+                    <xref href="https://www.oxygenxml.com" format="html" scope="external"
+                        >Toolbar</xref>
+                </area>
+                <area>
+                    <shape>rect</shape>
+                    <coords>-8, 170, 316, 700</coords>
+                    <xref href="https://www.oxygenxml.com" format="html" scope="external">DITA Maps
+                        Manager</xref>
+                </area>
+                <area>
+                    <shape>rect</shape>
+                    <coords>330, 166, 1094, 684</coords>
+                    <xref href="https://www.oxygenxml.com" format="html" scope="external">DITA
+                        Editor</xref>
+                </area>
+            </imagemap>
+        </section>
+    </refbody>
+    <related-links>
+        <link href="https://www.oxygenxml.com/dita/1.3/specs/langRef/containers/pr-d.html"
+            format="html" scope="external"></link>
+        <link href="https://www.oxygenxml.com/dita/1.3/specs/langRef/containers/ui-d.html"
+            format="html" scope="external"/>
+    </related-links>
+</reference>

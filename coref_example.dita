@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="coref_example">
+    <title>coref example</title>
+    <shortdesc></shortdesc>
+    <conbody>
+        <p>The following is an example of <codeph>coferef</codeph> element in DITA</p>
+        <example>
+            <title>&lt;coderef> usage</title>
+            <codeblock class="+ topic/pre pr-d/codeblock "><coderef href="Hello%20World.cpp#line-range(4,8)"/></codeblock>
+        </example>
+    </conbody>
+</concept>

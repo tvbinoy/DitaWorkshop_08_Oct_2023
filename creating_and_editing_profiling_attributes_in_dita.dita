@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="creating_and_editing_profiling_attributes_in_dita">
+    <title>Creating and Editing Profiling Attributes in DITA</title>
+    <taskbody>
+        <context>
+            <p>To create or edit profiling attributes for filtering DITA content, follow these
+                steps:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd><ph platform="windows">Select<menucascade>
+                            <uicontrol> Options</uicontrol>
+                            <uicontrol>Preferences</uicontrol>
+                        </menucascade></ph>
+                    <ph platform="mac">Right-click in the <uicontrol>Editor</uicontrol> view and
+                        select <uicontrol>Options</uicontrol> from the contextual menu.</ph></cmd>
+            </step>
+            <step audience="expert">
+                <cmd>Open the <uicontrol>Preferences</uicontrol> dialog and go to <menucascade>
+                        <uicontrol>Editor </uicontrol>
+                        <uicontrol>Edit Modes</uicontrol>
+                        <uicontrol>Author</uicontrol>
+                        <uicontrol>Profiling/Conditional Text</uicontrol>
+                        <uicontrol>Atrributes and Condition Sets</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

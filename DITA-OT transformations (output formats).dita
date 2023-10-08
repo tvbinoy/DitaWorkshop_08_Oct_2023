@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="introduction_to_dita">
+    <title>DITA-OT transformations (output formats)</title>
+    <shortdesc></shortdesc>
+    <conbody>
+        <p>DITA Open Toolkit ships with several core transformations that convert DITA content to
+            different output formats. Additional formats are available from the plug-in registry at
+                <xref href="https://www.dita-ot.org/plugins" format="html" scope="external"
+                >dita-ot.org/plugins</xref>.</p>
+        <p><b>Tip:</b> For information on how to install other formats, see <xref
+                href="https://www.dita-ot.org/dev/topics/adding-plugins" format="html"
+                scope="external">Adding and removing plug-ins</xref>.</p>
+        <ul id="ul_bz1_wwn_wyb">
+            <li>
+                <p><b><xref href="https://www.dita-ot.org/dev/topics/dita2pdf" format="html"
+                            scope="external">PDF</xref></b></p>
+                <p>The <codeph>pdf</codeph> transformation generates output in Portable Document
+                    Format.</p>
+            </li>
+            <li>
+                <p><b><xref href="https://www.dita-ot.org/dev/topics/dita2html5" format="html"
+                            scope="external">HTML5</xref></b></p>
+                <p>The <codeph>html5</codeph> transformation generates HTML5 output and a table of
+                    contents (TOC) file.</p>
+            </li>
+            <li>
+                <p><b><xref href="https://www.dita-ot.org/dev/topics/dita2eclipsehelp" format="html"
+                            scope="external">Eclipse help</xref></b></p>
+                <p>The <codeph>eclipsehelp</codeph> transformation generates XHTML output, CSS
+                    files, and the control files that are needed for Eclipse help.</p>
+            </li>
+            <li>
+                <p><b><xref href="https://www.dita-ot.org/dev/topics/dita2htmlhelp" format="html"
+                            scope="external">HTML Help</xref></b></p>
+                <p>The <codeph>htmlhelp</codeph> transformation generates HTML output, CSS files,
+                    and the control files that are needed to produce a Microsoft Compiled HTML Help
+                    (.chm) file.</p>
+            </li>
+            <li>
+                <p><b><xref href="https://www.dita-ot.org/dev/topics/dita2markdown" format="html"
+                            scope="external">Generating Markdown output</xref></b></p>
+                <p>Along with <xref href="https://www.dita-ot.org/dev/topics/markdown-input"
+                        format="html" scope="external">Markdown input</xref>, DITA-OT provides three
+                    transformation types to convert DITA content to Markdown, including the original
+                    syntax, GitHub-Flavored Markdown, and GitBook.</p>
+            </li>
+            <li>
+                <p><b><xref href="https://www.dita-ot.org/dev/topics/dita2dita" format="html"
+                            scope="external">Normalized DITA</xref></b></p>
+                <p>The <codeph>dita</codeph> transformation generates normalized topics and maps
+                    from DITA input. The normalized output includes the results of DITA Open Toolkit
+                    pre-processing operations, which resolve map references, keys, content
+                    references, code references and push metadata back and forth between maps and
+                    topics.</p>
+            </li>
+            <li>
+                <p><b><xref href="https://www.dita-ot.org/dev/topics/dita2xhtml" format="html"
+                            scope="external">XHTML</xref></b></p>
+                <p>The <codeph>xhtml</codeph> transformation generates XHTML output and a table of
+                    contents (TOC) file. This was the first transformation created for DITA Open
+                    Toolkit, and originally served as the basis for all HTML-based
+                    transformations.</p>
+            </li>
+        </ul>
+    </conbody>
+</concept>

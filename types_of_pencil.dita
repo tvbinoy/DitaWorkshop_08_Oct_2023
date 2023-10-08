@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="types_of_pencil">
+    <title>Types of Pencil</title>
+    <shortdesc></shortdesc>
+    <refbody><section>
+    <p>We are developing a graphite pencil for artistic purposes. They can be used for sketching,
+            studies and drafts. They are extremely soft and black. The number range is 4B-9B.</p>
+        <table frame="all" rowsep="1" colsep="1" id="table_hn4_l5w_5yb">
+            <title>Types of Pencil</title>
+            <tgroup cols="4">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <colspec colname="c3" colnum="3" colwidth="1*"/>
+                <colspec colname="c4" colnum="4" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>Purpose</entry>
+                        <entry>Usage</entry>
+                        <entry>Type</entry>
+                        <entry>Range</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry><uicontrol>Artistic</uicontrol></entry>
+                        <entry>
+                            <sl>
+                                <sli>Sketching</sli>
+                                <sli>Studies</sli>
+                                <sli>Drafts</sli>
+                            </sl>
+                        </entry>
+                        <entry>Soft and black</entry>
+                        <entry>
+                            <sl>
+                                <sli>4B</sli>
+                                <sli>5B</sli>
+                                <sli>6B</sli>
+                                <sli>7B</sli>
+                                <sli>8B</sli>
+                                <sli>9B</sli>
+                            </sl>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </section>
+    </refbody>
+</reference>

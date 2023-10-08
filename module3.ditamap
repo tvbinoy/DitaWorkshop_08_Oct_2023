@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Module3</title>
+    <topichead navtitle="Syntax and Mark-up">
+        <topicref href="organisation_of_dita_elements.dita"/>
+    </topichead>
+    <topichead navtitle="Element Domains">
+        <topicref href="domain_elements.dita"/>
+    </topichead>
+    <topichead navtitle="Elements">
+        <topicref href="lists.dita"/>
+    </topichead>
+</map>

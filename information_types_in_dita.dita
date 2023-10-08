@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="information_types_in_dita">
+    <title>Information Types in DITA</title>
+    <shortdesc> An introduction to information types: Concept, Task, and Reference. </shortdesc>
+    <conbody>
+        <section>
+            <title>Concept</title><p> Concept topics in DITA contain explanations and overviews of
+                tasks or reference information. They are typically short and simple, providing
+                background information. </p>
+            <b>Characteristics of Concept Topics</b>
+            <table id="table_d3p_tvf_1zb" colsep="1" rowsep="1" frame="all">
+                <tgroup cols="2">
+                    <colspec colname="c1" colwidth="50%" colsep="1" rowsep="1"/>
+                    <colspec colname="c2" colwidth="50%" colsep="1" rowsep="1"/>
+                    <thead>
+                        <row rowsep="1">
+                            <entry colsep="1" rowsep="1">Characteristics</entry>
+                            <entry colsep="1" rowsep="1">Description</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row rowsep="1">
+                            <entry colsep="1" rowsep="1">Purpose/Function</entry>
+                            <entry colsep="1" rowsep="1">Explanatory</entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1" rowsep="1">Access Frequency</entry>
+                            <entry colsep="1" rowsep="1">A few times</entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1" rowsep="1">Book Context</entry>
+                            <entry colsep="1" rowsep="1">Front, Middle</entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1" rowsep="1">Content or Data</entry>
+                            <entry colsep="1" rowsep="1">Content</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        
+        <section>
+            <title>Task</title>
+            <p>
+                Task topics in DITA contain procedural steps that guide users through specific processes or actions.
+            </p>
+        </section>
+        
+        <section>
+            <title>Reference</title><p> Reference topics in DITA detail properties and other
+                reference information, typically presented in tabular form. </p>
+            <b>Characteristics of Reference Topics</b>
+            <table id="table_sd5_svf_1zb" frame="all">
+                <tgroup cols="2">
+                    <colspec colname="c1" colwidth="50%" colsep="1" rowsep="1"/>
+                    <colspec colname="c2" colwidth="50%" colsep="1" rowsep="1"/>
+                    <thead>
+                        <row rowsep="1">
+                            <entry colsep="1" rowsep="1">Characteristics</entry>
+                            <entry colsep="1" rowsep="1">Description</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row rowsep="1">
+                            <entry colsep="1" rowsep="1">Purpose/Function</entry>
+                            <entry colsep="1" rowsep="1">Fact</entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1" rowsep="1">Access Frequency</entry>
+                            <entry colsep="1" rowsep="1">Repeatedly, when needed</entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1" rowsep="1">Book Context</entry>
+                            <entry colsep="1" rowsep="1">Back</entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1" rowsep="1">Content or Data</entry>
+                            <entry colsep="1" rowsep="1">Data </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table></section>
+<section><b>Example</b><p> The use of a car's alarm system may be covered by:</p><ul
+                id="ul_kbx_rxf_1zb">
+                <li>Alarm systems (concept)</li>
+                <li>Setting the alarm (task)</li>
+                <li>Alarm codes (reference)</li>
+            </ul></section>
+        <section>
+            <b>Associating DITA Topics</b>
+            <p> Set of topics can be associated using a reltable, allowing the topics to be linked
+                or associated in the deliverable document. A typical procedure often involves the
+                combination of different topic types. While task information is generally easy to
+                identify, it can be difficult to distinguish concept from reference information.
+            </p>
+        </section>
+    </conbody>
+</concept>

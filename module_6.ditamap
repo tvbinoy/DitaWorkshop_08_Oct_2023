@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Module 6</title>
+    <topicref href="twt_workshop.dita"/>
+    <topicgroup>
+        <topicmeta>
+            <navtitle>Keys</navtitle>
+        </topicmeta>
+        <keydef keys="version_number">
+            <topicmeta>
+                <keywords>
+                    <keyword>v1.0</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+    </topicgroup>
+    <mapref href="microsoft.ditamap" format="ditamap"/>
+</map>

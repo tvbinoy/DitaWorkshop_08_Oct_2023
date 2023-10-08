@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_dita_topic_type">
+    <title>Concept Topic Type</title>
+    <shortdesc> This topic explains the purpose, characteristics, and common use cases of the
+        Concept topic type. </shortdesc>
+    <conbody>
+        <p> In DITA (Darwin Information Typing Architecture), a topic is a fundamental type of topic
+            designed to provide high-level explanations and background information about a specific
+            subject or topic. It serves the primary purpose of answering the question, "What is it?" </p>
+        <section>
+            <title>Purpose</title>
+            <p> The primary purpose of a Concept topic is to convey fundamental understanding and
+                context about a subject matter. It aims to provide readers with a broad overview and
+                foundational knowledge without delving into specific procedures or tasks. </p>
+        </section>
+        <section>
+            <title>Key Characteristics</title>
+            <ul>
+                <li>
+                    <p>  Concept topics offer a high-level understanding of a topic or concept,
+                        presenting information in a manner that is easily digestible and devoid of
+                        detailed procedures. </p>
+                </li>
+                <li>
+                    <p>  They include definitions, explanations, examples, and analogies to clarify
+                        complex ideas and terminology. </p>
+                </li>
+                <li>
+                    <p>  Concept topics do not provide step-by-step instructions or specific tasks
+                        to perform. Instead, they focus on knowledge transfer and comprehension. </p>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <title>Common Use Cases</title>
+            <ul>
+                <li>
+                    <p>  Concept topics are commonly used for introducing readers to new software
+                        applications, technologies, or complex subjects. </p>
+                </li>
+                <li>
+                    <p>  They are employed to explain terminology, principles, theories, or abstract
+                        concepts. </p>
+                </li>
+                <li>
+                    <p>  Concept topics serve as a valuable resource for providing background
+                        context and foundational knowledge that can be referenced in more detailed
+                        topics. </p>
+                </li>
+            </ul>
+        </section>
+    </conbody>
+</concept>

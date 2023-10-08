@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_dita_topic">
+    <title>Task DITA Topic</title>
+    <shortdesc>
+        An introduction to the fundamental DITA information types: Concept, Task, and Reference.
+    </shortdesc>
+    <taskbody>
+        <p>
+            DITA categorizes key business information by communication purpose or information type. There are three base DITA information types: Concept, Task, and Reference.
+        </p>
+        <section>
+            <title>Task</title>
+            <p>
+                The Task topic is one of the three base DITA information types.
+            </p>
+            <p>
+                Task topics are used to document the steps of a particular task or procedure or to document the stages within a high-level process. Task topics are the building blocks for task-oriented documentation. Task topics are more strictly structured than concept and reference topics.
+            </p>
+            <p>
+                Task topics address the question of "how to?"
+            </p>
+            <p>
+                The root element of a Task topic is &lt;task&gt;.
+            </p>
+        </section>
+    </taskbody>
+</task>
+

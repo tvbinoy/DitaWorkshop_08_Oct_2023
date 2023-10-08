@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_zvd_k14_wyb">
+    <title>Creating a DITA topic</title>
+    <shortdesc>DITA (Darwin Information Typing Architecture) is an XML-based markup language
+        commonly used for creating structured documentation. DITA topics are the fundamental
+        building blocks of DITA content. In this task topic, you will learn how to create a DITA
+        topic.</shortdesc>
+    <taskbody>
+        <prereq id="prereq_njg_gb4_wyb">
+            <p>
+                <ul id="ul_ltv_1s1_1zb">
+                    <li>A text editor or an XML editor (such as Oxygen XML Editor or Adobe
+                        FrameMaker). You can download a trial version of the Oxygen XML Author at
+                            <xref
+                            href="https://www.oxygenxml.com/xml_author/download_oxygenxml_author.html"
+                            format="html" scope="external">Oxygen Download</xref>.</li>
+                    <li>Basic knowledge of the subject matter you want to document.</li>
+                </ul>
+            </p>
+        </prereq>
+        <context>
+            <p>Once you complete the instructions, you will have a task topic created.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>On you system, open Oxyegn XML.</cmd>
+            </step>
+            <step>
+                <cmd>On top left of the Oxygen XML, select <menucascade>
+                        <uicontrol>File</uicontrol>
+                        <uicontrol>New</uicontrol>
+                    </menucascade>. Alternatively, select the <image href="new.JPG"
+                        id="image_vj5_lm4_wyb"/><uicontrol>New</uicontrol> icon.</cmd>
+                <stepresult>You will now see the <uicontrol>New</uicontrol> window.</stepresult>
+            </step>
+            <step>
+                <cmd>From the available template list, select one of the following DITA topic
+                    templates:</cmd>
+                <choicetable relcolwidth="1* 1*" id="choicetable_oh3_nv1_1zb" frame="all">
+                    <chhead>
+                        <choptionhd>Template type</choptionhd>
+                        <chdeschd>Description</chdeschd>
+                    </chhead>
+                    <chrow>
+                        <choption>Concept</choption>
+                        <chdesc>
+                            <p>The Concept topic type is used to provide fundamental explanations
+                                and background information about a particular subject. It aims to
+                                answer "What is it?" and helps users grasp the underlying concepts
+                                and principles related to a topic.</p>
+                        </chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>Task</choption>
+                        <chdesc>
+                            <p>The Task topic type is designed to guide users through a series of
+                                steps to accomplish a specific goal or perform a task. It answers
+                                the question "How do I do it?" and provides detailed, sequential
+                                instructions.</p>
+                        </chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>Reference</choption>
+                        <chdesc>
+                            <p>The Reference topic type is intended for providing comprehensive and
+                                detailed information about specific elements, parameters, or
+                                features. It serves as a reference guide, answering "What are the
+                                details?" and provides in-depth information.</p>
+                        </chdesc>
+                    </chrow>
+                </choicetable>
+                <info>
+                    <fig id="fig_yn3_zl4_wyb">
+                        <title>New template window</title>
+                        <image placement="break" href="File_New.JPG" align="center"
+                            id="image_zn3_zl4_wyb">
+                            <alt>New template window</alt>
+                        </image>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Locate the <uicontrol>Title</uicontrol> field in the template, and enter the
+                    title of your topic.</cmd>
+                <info>
+                    <note type="note">Do not insert special characters or exceed 255 character limit
+                        while providing a title.</note>
+                </info>
+            </step>
+            <step>
+                <cmd>Browse and choose the location to save the file.</cmd>
+            </step>
+            <step>
+                <cmd>Once done, select <uicontrol>Create</uicontrol>.</cmd>
+            </step>
+        </steps>
+        <result id="result_prk_xd4_wyb">
+            <p>You have now created the DITA topic of your choice.</p>
+        </result>
+        <postreq id="postreq_knr_bg4_wyb">
+            <p>Now that you have created a DITA topic, start adding the content, use bulleted or
+                numbered lists, insert images or diagrams, add cross-references, etc.</p>
+        </postreq>
+    </taskbody>
+</task>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Module1</title>
+    <topicgroup>
+        <topicmeta>
+            <navtitle>Introduction to DITA</navtitle>
+        </topicmeta>
+        <topicref href="introduction_to_dita.dita">
+            <topicref href="Introduction%20to%20DITA.dita"/>
+            <topicref href="The%20benefits%20of%20a%20topic-based%20architecture.dita"/>
+            <topicref href="About%20XML.dita"/>
+            <topicref href="DITA%20terminology%20and%20notation.dita"/>
+            <topicref href="DITA%20Open%20Toolkit%201.8%20Documentation.dita"/>
+            <topicref href="DITA-OT%20transformations%20(output%20formats).dita"/>
+            <topicref href="Darwin%20Information%20Typing%20Architecture.dita"/>
+        </topicref>
+        <topicgroup>
+            <topicmeta>
+                <navtitle>What is DITA?</navtitle>
+            </topicmeta>
+            <topicgroup>
+                <topicmeta>
+                    <navtitle>Topic</navtitle>
+                </topicmeta>
+            </topicgroup>
+            <topicref href="types_of_pencil.dita"/>
+        </topicgroup>
+        <topicgroup>
+            <topicmeta>
+                <navtitle>Business advantages of DITA</navtitle>
+            </topicmeta>
+        </topicgroup>
+    </topicgroup>
+    <reltable title="Reltable for Module 1">
+        <relheader>
+            <relcolspec type="concept"/>
+            <relcolspec type="task"/>
+            <relcolspec type="reference"/>
+        </relheader>
+        <relrow>
+            <relcell>
+                <topicref href="introduction_to_dita.dita">
+                <topicref href="The%20benefits%20of%20a%20topic-based%20architecture.dita"/>
+                    <topicref href="About%20XML.dita"/></topicref>
+                <topicref href="DITA%20terminology%20and%20notation.dita"/>
+            </relcell>
+            <relcell/>
+            <relcell/>
+        </relrow>
+        <relrow>
+            <relcell>
+                <topicref href="DITA-OT%20transformations%20(output%20formats).dita"/>
+                <topicref href="DITA-OT%20transformations%20(output%20formats).dita"/>
+            </relcell>
+            <relcell/>
+            <relcell/>
+        </relrow>
+    </reltable>
+</map>

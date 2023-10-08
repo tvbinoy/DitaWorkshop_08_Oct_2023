@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="task">
+    <title>Task</title>
+    <shortdesc>
+        An explanation of the Task DITA information type.
+    </shortdesc>
+    <conbody>
+        <p>
+            The Task topic is one of the three base DITA information types.
+        </p>
+        <section>
+            <title>Characteristics</title>
+            <ul>
+                <li>
+                    <p>Used for documenting step-by-step procedures or stages within processes.</p>
+                </li>
+                <li>
+                    <p>Building blocks for task-oriented documentation.</p>
+                </li>
+                <li>
+                    <p>More strictly structured compared to concept and reference topics.</p>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <title>Question Addressed</title>
+            <p>
+                Task topics answer the question "how to?"
+            </p>
+        </section>
+        <section>
+            <title>Root Element</title>
+            <p>
+                The root element of a Task topic is &lt;task&gt;.
+            </p>
+        </section>
+    </conbody>
+</concept>

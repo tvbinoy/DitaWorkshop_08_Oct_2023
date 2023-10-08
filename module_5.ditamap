@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Module 5</title>
+    <topicref href="introduction.dita"/>
+    <topicref href="creating_and_editing_profiling_attributes_in_dita.dita"/>
+    <topicref href="creating_profile_attributes.dita"/>
+    <topicref href="applying_profile_attributes.dita"/>
+</map>
